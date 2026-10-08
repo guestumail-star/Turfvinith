@@ -1,0 +1,18 @@
+{
+  "name": "turf-scorecards-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch api --watch dev-server.mjs --ext ts,mjs,json --exec \"node --import tsx dev-server.mjs\""
+  },
+  "dependencies": {
+    "mongodb": "^7.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.20.5",
+    "typescript": "~5.8.2"
+  }
+}
